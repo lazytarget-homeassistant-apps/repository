@@ -21,26 +21,24 @@ In the Home Assistant app store, a possibility to add a repository is provided.
 Use the following URL to add this repository:
 
 ```txt
-{{ repo }}
+https://github.com/lazytarget-homeassistant-addons/repository
 ```
 
 ## Apps provided by this repository
 
-{% for addon in addons %}
-### &#10003; [{{ addon.name }}][addon-{{ addon.target }}]
+### &#10003; [Grocy][addon-grocy]
 
-![Latest Version][{{ addon.target }}-version-shield]
-![Supports armhf Architecture][{{ addon.target }}-armhf-shield]
-![Supports armv7 Architecture][{{ addon.target }}-armv7-shield]
-![Supports aarch64 Architecture][{{ addon.target }}-aarch64-shield]
-![Supports amd64 Architecture][{{ addon.target }}-amd64-shield]
-![Supports i386 Architecture][{{ addon.target }}-i386-shield]
+![Latest Version][grocy-version-shield]
+![Supports armhf Architecture][grocy-armhf-shield]
+![Supports armv7 Architecture][grocy-armv7-shield]
+![Supports aarch64 Architecture][grocy-aarch64-shield]
+![Supports amd64 Architecture][grocy-amd64-shield]
+![Supports i386 Architecture][grocy-i386-shield]
 
-{{ addon.description }}
+ERP beyond your fridge! A groceries & household management solution for your home
 
-[:books: {{ addon.name }} app documentation][addon-doc-{{ addon.target }}]
+[:books: Grocy app documentation][addon-doc-grocy]
 
-{% endfor %}
 ## Releases
 
 Releases are based on [Semantic Versioning][semver], and use the format
