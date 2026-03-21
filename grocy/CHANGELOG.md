@@ -1,11 +1,16 @@
 ## What’s changed
 
-## 🧰 Maintenance
+Initial release for `lazytarget-homeassistant-addons`!
+Based on [hassio-addons/addon-grocy@v0.24.0](https://github.com/hassio-addons/addon-grocy/releases/tag/v0.24.0)
+But also includes some dependency upgrades. Base commit: [f4a37d](https://github.com/hassio-addons/addon-grocy/tree/f4a37d457eb7db8d10af1b397204c6a9a10d6c6a)
 
-- 🎆 Updates maintenance/license year to 2025 @frenck ([#474](https://github.com/hassio-addons/addon-grocy/pull/474))
+## 🐛 Bug fixes
 
-## ⬆️ Dependency updates
+- Resolve permissions issues with `hassio-addon/workflows`, bypass by using forked workflows @lazytarget 
 
-- ⬆️ Update alpine_3_19/git to v2.43.6-r0 @[renovate[bot]](https://github.com/apps/renovate) ([#468](https://github.com/hassio-addons/addon-grocy/pull/468))
-- ⬆️ Update grocy/grocy to v4.4.0 @[renovate[bot]](https://github.com/apps/renovate) ([#471](https://github.com/hassio-addons/addon-grocy/pull/471))
-- ⬆️ Update grocy/grocy to v4.4.1 @[renovate[bot]](https://github.com/apps/renovate) ([#472](https://github.com/hassio-addons/addon-grocy/pull/472))
+## 🚀 Enhancements
+
+- Remove 'release-drafter' workflow, since it is baked into 'ci' @lazytarget 
+- Personalize fork metadata @lazytarget 
+- Configures repository for custom fork @lazytarget
+- Renovate - Only scan for Grocy updates (and merge manually) @lazytarget 
