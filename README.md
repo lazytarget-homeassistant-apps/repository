@@ -1,4 +1,4 @@
-# Home Assistant Apps - LazyTarget Repository
+# LazyTarget's Home Assistant Apps
 
 ![Project Stage][project-stage-shield]
 ![Maintenance][maintenance-shield]
@@ -30,7 +30,6 @@ https://github.com/lazytarget-homeassistant-apps/repository
 
 ![Latest Version][grocy-version-shield]
 ![Supports armhf Architecture][grocy-armhf-shield]
-![Supports armv7 Architecture][grocy-armv7-shield]
 ![Supports aarch64 Architecture][grocy-aarch64-shield]
 ![Supports amd64 Architecture][grocy-amd64-shield]
 ![Supports i386 Architecture][grocy-i386-shield]
