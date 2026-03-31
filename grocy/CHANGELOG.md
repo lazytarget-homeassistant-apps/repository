@@ -1,9 +1,5 @@
 ## What’s changed
 
-## 🚀 Enhancements
+## ⬆️ Dependency updates
 
-- Configures consistent file formatting @lazytarget ([#7](https://github.com/lazytarget-homeassistant-apps/grocy/pull/7))
-
-## 🧰 Maintenance
-
-- Ensures s6-overlay scripts are executable @lazytarget ([#8](https://github.com/lazytarget-homeassistant-apps/grocy/pull/8))
+- ⬆️ Update grocy/grocy to v4.5.0 @lazytarget ([#6](https://github.com/lazytarget-homeassistant-apps/grocy/pull/6))
